@@ -1,0 +1,48 @@
+* {
+  margin: 0%;
+}
+
+#div1 {
+  text-align: center;
+  background-color: #7e102c;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+}
+#link1 {
+  color: white;
+}
+
+#nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: black;
+}
+#div2 {
+  color: white;
+  font-size: 26px;
+}
+#ul1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+#ul1 li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px 20px; 
+  transition: background-color 0.3s ease;
+}
+
+#ul1 li a:hover {
+  background-color: #d7a9a8 ;
+  color:white;
+}
+#img1 {
+  max-width: 26%;
+  height: auto;
+
+}
